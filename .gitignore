@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+.env/
+.ipynb_checkpoints/
+*.DS_Store
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Models
+models/*
+!models/.gitkeep
+
+# Results & submissions
+results/*
+!results/.gitkeep
+submissions/*
+!submissions/.gitkeep
+
+# Large embeddings cache (too big for GitHub)
+embeddings_cache/*.pkl
+*.pkl
+
+# Large model files
+*.bin
+*.h5
+*.model
+*.joblib
+
+# Large data files
+*.csv
+!FINAL_SUBMISSION/*.csv
+!CLEAN_APPROACHES/**/*.csv
+!dataset/*.csv
+
+# Notebooks
+notebooks/*.ipynb_checkpoints/
+
+# CatBoost info
+catboost_info/
